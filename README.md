@@ -44,7 +44,7 @@ Required libraries:
 - cryptography
 - tkinter (comes pre-installed with Python)
 
-🔐 Encryption
+###🔐 Encryption
 Uses Fernet symmetric encryption.
 
 A secret.key is generated using generate_key.py.
@@ -56,7 +56,7 @@ Run once to generate the encryption key:
 ```bash
 python generate_key.py
 ```
-🚀 How to Run
+###🚀 How to Run
 Generate encryption key:
 
 ```bash
@@ -74,7 +74,7 @@ python client_gui.py
 ```
 Enter a username in the popup to begin chatting.
 
-📁 Project Structure
+###📁 Project Structure
 ```bash
 📁 Secure-TCP-Chat/
 ├── server.py              # Server-side logic
@@ -85,7 +85,7 @@ Enter a username in the popup to begin chatting.
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project overview
 ```
-💡 Example
+###💡 Example
 ```bash
 # In terminal 1
 python server.py
@@ -108,6 +108,6 @@ Chat messages will look like:
 [21:21:03] tom: hello vyn
 [21:22:31] vyn: 😀 ntg
 ```
-💬 Emojis Supported
+###💬 Emojis Supported
 😀 😁 😅 😂 😊 😇 😎 🤔 😢 😡 ❤️ 👍 👋 🙌 🎉
 
