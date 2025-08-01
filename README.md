@@ -39,7 +39,6 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
-Required libraries:
 ```
 Required libraries:
 - cryptography
