@@ -40,10 +40,10 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 Required libraries:
-
-cryptography
-
-tkinter (comes pre-installed with Python)
+```
+Required libraries:
+- cryptography
+- tkinter (comes pre-installed with Python)
 
 🔐 Encryption
 Uses Fernet symmetric encryption.
@@ -54,30 +54,29 @@ All messages (including usernames) are encrypted before being sent.
 
 Run once to generate the encryption key:
 
-bash
-Copy code
+```bash
 python generate_key.py
+```
 🚀 How to Run
 Generate encryption key:
 
-bash
-Copy code
+```bash
 python generate_key.py
+```
 Start the server:
 
-bash
-Copy code
+```bash
 python server.py
+```
 Start one or more clients:
 
-bash
-Copy code
+```bash
 python client_gui.py
+```
 Enter a username in the popup to begin chatting.
 
 📁 Project Structure
-bash
-Copy code
+```bash
 📁 Secure-TCP-Chat/
 ├── server.py              # Server-side logic
 ├── client_gui.py          # GUI chat client
@@ -86,9 +85,9 @@ Copy code
 ├── chat_log.txt           # Log of all chat messages
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project overview
+```
 💡 Example
-bash
-Copy code
+```bash
 # In terminal 1
 python server.py
 ✅ Server has started on port 5555
@@ -100,23 +99,16 @@ python client_gui.py
 # In terminal 3
 python client_gui.py
 ✅ tom joined the chat!
+```
+
 Chat messages will look like:
 
-csharp
-Copy code
+```csharp
 [21:19:56] vyn: hello!!
 [21:20:57] ✅ tom joined the chat!
 [21:21:03] tom: hello vyn
 [21:22:31] vyn: 😀 ntg
+```
 💬 Emojis Supported
 😀 😁 😅 😂 😊 😇 😎 🤔 😢 😡 ❤️ 👍 👋 🙌 🎉
-
-🔒 Note
-This project is for educational purposes only. It simulates secure messaging on a local network and is not recommended for use in production environments.
-
-👩‍💻 Author
-Vynavi B V
-
-Made with 💻 and ❤️ in Python.
-
 
